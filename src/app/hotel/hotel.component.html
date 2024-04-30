@@ -1,0 +1,8 @@
+<div class="hotel-grid">
+  <div class="hotel-card" *ngFor="let hotel of hoteles">
+    <img [src]="hotel.imagen" alt="{{ hotel.nombre }}">
+    <h2>{{ hotel.nombre }}</h2>
+    <p>{{ hotel.descripcion }}</p>
+    <!--TODO: demás atributos del hotel-->
+  </div>
+</div>

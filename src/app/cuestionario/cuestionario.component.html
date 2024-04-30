@@ -1,0 +1,205 @@
+<section id ="first-section">
+    <div class="header">
+        <h1 class="app-name">ExploreNest</h1>
+        <img src="../../assets/LOGO.png" alt="ExploreNest Logo" class="logo">
+        <nav class="navigation-menu">
+            <a href="#" class="menu-link">Mis planes</a>
+            <a href="#" class="menu-link">Hoteles</a>
+            <a href="#" class="menu-link">Vuelos</a>
+            <a href="#" class="menu-link">Actividades</a>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class = "main-text">
+            <h1 class="titulo">Personaliza tu experiencia de viaje</h1>
+        </div>
+        <div class = "description">
+            <p class="d1">Ayudanos a conocerte mejor respondiendo algunas preguntas sobre tus gustos y preferencias.</p>
+            <p class="d2">¡Empecemos!</p>
+        </div>
+    </div>
+</section>
+<section id ="second-section">
+    <div class = "main-2">
+        <h1 class="preguntas">¿Cuál es tu destino de viaje ideal?</h1>
+    </div>
+    <div class="checkbox-group">
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Ciudades con vida nocturna</p>
+            <input type="checkbox" [(ngModel)]="responses.nightLife" />
+            <span class="checkmark"></span>
+          </label>
+      
+          <label class="custom-checkbox">
+            <p class = "op">Ciudades históricas y culturales</p>
+            <input type="checkbox" [(ngModel)]="responses.historical" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Naturaleza exuberante</p>
+            <input type="checkbox" [(ngModel)]="responses.nature" />
+            <span class="checkmark"></span>
+          </label>
+      
+          <label class="custom-checkbox">
+            <p class = "op">Destinos de playa</p>
+            <input type="checkbox" [(ngModel)]="responses.beach" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>      
+</section>
+<section id="third-section">
+    <div class = "main-3">
+        <h1 class="preguntas">¿Cuál es tu estilo de alojamiento preferido?</h1>
+    </div>
+    <div class="checkbox-group">
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Camping o albergues</p>
+            <input type="checkbox" [(ngModel)]="responses.camping" />
+            <span class="checkmark"></span>
+          </label>
+      
+          <label class="custom-checkbox">
+            <p class = "op">Alojamientos eco-friendly</p>
+            <input type="checkbox" [(ngModel)]="responses.eco" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Hoteles boutique o casas de huéspedes</p>
+            <input type="checkbox" [(ngModel)]="responses.hoteles" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>     
+</section>
+<section id="fourth-section">
+    <div class = "main-4">
+        <h1 class="preguntas">¿Qué tipo de transporte prefieres durante tus viajes?</h1>
+    </div>
+    <div class="checkbox-group">
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Alquiler de coches o motos</p>
+            <input type="checkbox" [(ngModel)]="responses.alquiler" />
+            <span class="checkmark"></span>
+          </label>
+      
+          <label class="custom-checkbox">
+            <p class = "op">Uso de transporte público local</p>
+            <input type="checkbox" [(ngModel)]="responses.publico" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Excursiones en grupo con transporte privado</p>
+            <input type="checkbox" [(ngModel)]="responses.privado" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>     
+</section>
+<section id="fifth-section">
+    <div class = "main-5">
+        <h1 class="preguntas">¿Qué actividades te gustaría incluir en tu itinerario?</h1>
+    </div>
+    <div class="checkbox-group">
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Visitar sitios históricos y museos</p>
+            <input type="checkbox" [(ngModel)]="responses.museos" />
+            <span class="checkmark"></span>
+          </label>
+      
+          <label class="custom-checkbox">
+            <p class = "op">Exploración Urbana y experiencias culturales</p>
+            <input type="checkbox" [(ngModel)]="responses.urban" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Practicar deportes de aventura y actividades al aire libre</p>
+            <input type="checkbox" [(ngModel)]="responses.deportes" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="custom-checkbox">
+            <p class = "op">Naturaleza y Ecoturismo</p>
+            <input type="checkbox" [(ngModel)]="responses.natureeco" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>     
+</section>
+<section id="sixth-section">
+    <div class = "main-6">
+        <h1 class="preguntas">¿Con quién planeas viajar?</h1>
+    </div>
+    <div class="checkbox-group">
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Solo</p>
+            <input type="checkbox" [(ngModel)]="responses.solo" />
+            <span class="checkmark"></span>
+          </label>
+      
+          <label class="custom-checkbox">
+            <p class = "op">Pareja</p>
+            <input type="checkbox" [(ngModel)]="responses.pareja" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <div class="checkbox-row">
+          <label class="custom-checkbox">
+            <p class = "op">Familia</p>
+            <input type="checkbox" [(ngModel)]="responses.familia" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="custom-checkbox">
+            <p class = "op">Amigos</p>
+            <input type="checkbox" [(ngModel)]="responses.amigos" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+    </div>
+    <div class = "boton">
+        <button class = "btn-siguiente" (click)="Siguiente()">Siguiente</button>   
+    </div> 
+</section>
+<footer>
+    <div id="contenedor-partners">
+        <div class="partner">
+            <img src="../../assets/Partner1.png" alt="Partner 1">
+        </div>
+        <div class="partner">
+            <img src="../../assets/Partner2.jpg" alt="Partner 2">
+        </div>
+        <div class="partner">
+            <img src="../../assets/Partner3.png" alt="Partner 3">
+        </div>
+        <div class="partner">
+            <img src="../../assets/Partner4.png" alt="Partner 4">
+        </div>
+    </div>
+    <div id="footer-text">
+        <div id="footer-text-izquierda">
+            <img id="titulo-logo" src="../../assets/titulo-logo.png" alt="Logo de ExploreNest">
+            <p id="texto-titlulo-logo">
+                Descubre nuevos horizontes desde la seguridad de tu nido
+            </p>
+        </div>
+        <div id="footer-text-derecha">
+            <a class="link-footer">¿Quiénes somos?</a>
+            <a class="link-footer">Contacto</a>
+            <a class="link-footer">Ayuda/FAQ</a>
+        </div>
+    </div>
+</footer>

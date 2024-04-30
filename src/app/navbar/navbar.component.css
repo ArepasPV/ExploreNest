@@ -1,0 +1,77 @@
+/* Estilos generales */
+html{
+    height: 100% !important;
+}
+
+.registro-container {
+    width: 100%;
+    background-color: #fff; /* Color de fondo del contenedor */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+body{
+    background-image: url("../../assets/background-landing.png");
+    background-size:cover;
+    margin: 0;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Asegúrate de que el HTML y BODY ocupen todo el ancho */
+    height: 100%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Sanchez', sans-serif;
+    line-height: 1.8;
+    /* border: 1px red solid; */
+}
+/*----------Estilos encabezado----------*/
+.app-name{
+    font-size: 3.5em;
+    color: #032466;
+    line-height: 1em;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+  }
+  .logo{
+    width: 100px; 
+    height: auto;
+    max-height:100px;
+  }
+  
+  .header {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+      width: 100%; /* Establece el ancho del encabezado al ancho completo de la página */
+      padding: 10px; 
+      box-sizing: border-box;
+  }
+  .navigation-menu {
+      display: flex;
+      align-items: center; 
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #032466;
+    margin-left: 150px; 
+    font-family: 'Sanchez', sans-serif;
+  }
+

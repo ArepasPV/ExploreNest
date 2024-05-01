@@ -1,45 +1,33 @@
+<app-navbar></app-navbar>
 <section id="first-section">
-    <div class="landing-page-container">
-        <div class="header">
-            <h1 class="app-name">ExploreNest</h1>
-            <img src="../../assets/LOGO.png" alt="ExploreNest Logo" class="logo">
-            <nav class="navigation-menu">
-                <a href="#" class="menu-link">Mis planes</a>
-                <a href="#" class="menu-link">Hoteles</a>
-                <a href="#" class="menu-link">Vuelos</a>
-                <a href="#" class="menu-link">Actividades</a>
-            </nav>
-        </div>
-    </div>
     <div class="search-box">
-        <input type="text" class="search-input" placeholder="Buscar...">
-        <span class="search-clear">&times;</span>
+      <input type="text" class="search-input" placeholder="Buscar...">
+      <span class="search-clear">&times;</span>
     </div>
     <div class="content-container">
         <div class="text-container">
             <p class="subtitle">Descubre nuevos horizontes desde la seguridad de tu nido</p>
             <h1 class="title">¡Viajar nunca fue tan fácil!</h1>
             <p class="description">Conoce destinos, consigue hospedaje y arma planes, ¡Todo a tu medida!</p>
-            <button class="cta-button">¡Personaliza tu experiencia!</button>
+            <a class="cta-button" href="info">¡Personaliza tu experiencia!</a>
         </div>
     </div>
-
 </section>
 <section id="second-section">
     <a class = "boton" href="url">
-        <img src="assets/mi_billetera.png" alt="Mi Billetera" class="imagen-boton" />
+        <img src="../../../assets/mi_billetera.png" alt="Mi Billetera" class="imagen-boton" />
+    </a>
+    <a class = "boton" routerLink="hotels">
+        <img src="../../../assets/hoteles.png" alt="Hoteles" class="imagen-boton" />
     </a>
     <a class = "boton" href="url">
-        <img src="assets/hoteles.png" alt="Hoteles" class="imagen-boton" />
+        <img src="../../../assets/planes.png" alt="Planes" class="imagen-boton" />
     </a>
     <a class = "boton" href="url">
-        <img src="assets/planes.png" alt="Planes" class="imagen-boton" />
+        <img src="../../../assets/vuelos.png" alt="Vuelos" class="imagen-boton" />
     </a>
     <a class = "boton" href="url">
-        <img src="assets/vuelos.png" alt="Vuelos" class="imagen-boton" />
-    </a>
-    <a class = "boton" href="url">
-        <img src="assets/autos.png" alt="Autos" class="imagen-boton" />
+        <img src="../../../assets/autos.png" alt="Autos" class="imagen-boton" />
     </a>
 </section>
 
@@ -176,21 +164,21 @@
 <footer>
     <div id="contenedor-partners">
         <div class="partner">
-            <img src="../../assets/Partner1.png" alt="Partner 1">
+            <img src="../../../assets/Partner1.png" alt="Partner 1">
         </div>
         <div class="partner">
-            <img src="../../assets/Partner2.jpg" alt="Partner 2">
+            <img src="../../../assets/Partner2.jpg" alt="Partner 2">
         </div>
         <div class="partner">
-            <img src="../../assets/Partner3.png" alt="Partner 3">
+            <img src="../../../assets/Partner3.png" alt="Partner 3">
         </div>
         <div class="partner">
-            <img src="../../assets/Partner4.png" alt="Partner 4">
+            <img src="../../../assets/Partner4.png" alt="Partner 4">
         </div>
     </div>
     <div id="footer-text">
         <div id="footer-text-izquierda">
-            <img id="titulo-logo" src="../../assets/titulo-logo.png" alt="Logo de ExploreNest">
+            <img id="titulo-logo" src="../../../assets/titulo-logo.png" alt="Logo de ExploreNest">
             <p id="texto-titlulo-logo">
                 Descubre nuevos horizontes desde la seguridad de tu nido
             </p>

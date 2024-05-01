@@ -62,7 +62,7 @@ html {
 }
 
 #first-section {
-    background-image: url("../../assets/landing.png");
+    background-image: url("../../../assets/landing.png");
     background-size: cover;
     height: 120vh !important;
 }
@@ -197,12 +197,12 @@ html {
 
 #second-section {
     display: flex;
-    margin-top: 4em; 
+    margin-top: 4em;
 }
 
 .imagen-boton {
     width: 100% !important;
-    
+
 }
 .boton{
     width: 100%;
@@ -218,7 +218,7 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: 4em;
-    background-image: url("../../assets/background-section-3.png");
+    background-image: url("../../../assets/background-section-3.png");
     background-size: cover;
 }
 
@@ -239,7 +239,7 @@ html {
 
 #card-imagen-1{
     width: 100%;
-    background-image: url("../../assets/card-1.jpg");
+    background-image: url("../../../assets/card-1.jpg");
     background-size: cover;
     border-radius: 60px;
     height: 75%;
@@ -247,7 +247,7 @@ html {
 
 #card-imagen-2{
     width: 100%;
-    background-image: url("../../assets/card-2.jpg");
+    background-image: url("../../../assets/card-2.jpg");
     background-size: cover;
     border-radius: 60px;
     height: 75%;
@@ -255,7 +255,7 @@ html {
 
 #card-imagen-3{
     width: 100%;
-    background-image: url("../../assets/card-3.jpg");
+    background-image: url("../../../assets/card-3.jpg");
     background-size: cover;
     border-radius: 60px;
     height: 75%;
@@ -280,7 +280,7 @@ html {
 
 #fourth-section{
     margin-top: 10em;
-    background-image: url("../../assets/background-section-4.png");
+    background-image: url("../../../assets/background-section-4.png");
     background-size: cover;
 }
 
@@ -384,7 +384,7 @@ html {
 .image-fifth{
     width: 128px !important;
     height: 128px !important;
-    background-image: url("../../assets/santiRodriguez.jpg");
+    background-image: url("../../../assets/santiRodriguez.jpg");
     background-size: cover;
     border-radius: 100%;
 }
@@ -407,25 +407,25 @@ html {
 }
 
 #partner1 {
-    background-image: url("../../assets/Partner1.png");
+    background-image: url("../../../assets/Partner1.png");
     background-size: cover;
     width: 25% !important;
 }
 
 #partner2 {
-    background-image: url("../../assets/Partner2.jpg");
+    background-image: url("../../../assets/Partner2.jpg");
     background-size:auto;
     width: 25% !important;
 }
 
 #partner3 {
-    background-image: url("../../assets/Partner3.png");
+    background-image: url("../../../assets/Partner3.png");
     background-size: cover;
     width: 25% !important;
 }
 
 #partner4 {
-    background-image: url("../../assets/Partner4.png");
+    background-image: url("../../../assets/Partner4.png");
     background-size: cover;
     width: 25% !important;
 }

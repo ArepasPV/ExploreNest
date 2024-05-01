@@ -5,13 +5,13 @@ html{
 
 .registro-container {
     width: 100%;
-    background-color: #fff; /* Color de fondo del contenedor */
+    background-color: transparent; /* Color de fondo del contenedor */
     padding: 20px; /* Espaciado interno */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 body{
-    background-image: url("../../assets/background-landing.png");
+    background-image: url("../../../assets/background-landing.png");
     background-size:cover;
     margin: 0;
     height: 100vh !important;
@@ -48,30 +48,30 @@ html, body {
     font-weight: bolder;
   }
   .logo{
-    width: 100px; 
+    width: 100px;
     height: auto;
     max-height:100px;
   }
-  
+
   .header {
       display: flex;
-      justify-content: space-between; 
-      align-items: center; 
+      justify-content: space-between;
+      align-items: center;
       width: 100%; /* Establece el ancho del encabezado al ancho completo de la página */
-      padding: 10px; 
+      padding: 10px;
       box-sizing: border-box;
   }
   .navigation-menu {
       display: flex;
-      align-items: center; 
+      align-items: center;
       margin-left: 100px;
       margin-right: 100px;
   }
-  
+
   .menu-link {
     text-decoration: none;
     color: #032466;
-    margin-left: 150px; 
+    margin-left: 150px;
     font-family: 'Sanchez', sans-serif;
   }
 

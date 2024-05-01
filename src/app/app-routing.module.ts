@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RegistroComponent } from './registro/registro.component';
-import { LandingPageComponent } from './landing-page/landing-page.component';
-import { CuestionarioComponent } from './cuestionario/cuestionario.component';
+import { RegistroComponent } from './components/registro/registro.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { CuestionarioComponent } from './components/cuestionario/cuestionario.component';
+import {HotelComponent} from "./components/hotel/hotel.component";
 const routes: Routes = [
-  { path: 'registro', component: RegistroComponent },
-  { path: 'landing-page', component: LandingPageComponent },
-  { path: 'cuestionario', component: CuestionarioComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'landing-page' },
+  { path: 'register', component: RegistroComponent },
+  { path: 'home', component: LandingPageComponent },
+  { path: 'hotels', component: HotelComponent },
+  { path: 'info', component: CuestionarioComponent },
+  { path: '', pathMatch: 'full', redirectTo: 'home' },
 ];
 
 @NgModule({

@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-image: url("../../assets/background-landing.png");
+    background-image: url("../../../assets/background-landing.png");
     background-size: cover;
     margin: 0;
     height: 100vh !important;
